@@ -39,7 +39,7 @@ x = test_features[:,0]
 y = test_features[:,1]
 output = predicted_labels
 sizes = np.full((1, output.shape[0]), 1)
-scatter_plot.scatter_plot(x, y, output, sizes, 'Scatter Plot of predicted labels of ring test separable')
+scatter_plot.scatter_plot(x, y, output, sizes, 'Scatter Plot of predicted labels of ring test separable using SVM')
 
 
 # # scatter plot of test true labels of separable class 0
